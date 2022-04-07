@@ -1,0 +1,17 @@
+body.light-theme {
+  --text-color: black;
+  --bg-color: white;
+  --font-family: Helvetica, Arial, Sans-Serif;
+}
+
+body.dark-theme {
+  --text-color: white;
+  --bg-color: grey;
+  --font-family: Times New Roman, Times, serif;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+}
